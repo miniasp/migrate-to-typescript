@@ -6,10 +6,19 @@
     "type": "git",
     "url": "https://github.com/miniasp/migrate-to-typescript"
   },
+
   "scripts": {
-      "start": "node server/server.js",
-      "install": "bower install"
+    "install": "bower install",
+    "postinstall": "typings install",
+    "prestart": "npm run tsc",
+    "start" : "concurrently \"npm run tsc:w\" \"npm run server\" ",
+    "server": "node server/server.js",
+    "tsc"   : "tsc",
+    "tsc:w" : "tsc -w",
+    "tscPublic": "tsc –p public",
+    "tscServer": "tsc –p server"
   },
+
   "author": "",
   "license": "MIT",
   "dependencies": {
@@ -17,6 +26,8 @@
     "connect": "^3.4.1",
     "express": "^4.13.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "concurrently": "^2.1.0"
+  },
   "bugs": {}
 }

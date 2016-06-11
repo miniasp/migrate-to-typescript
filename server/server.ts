@@ -1,8 +1,8 @@
 var PORT = process.env.PORT || 4000;
-var express = require('express');
-var http = require('http');
-var path = require('path');
-var bodyParser = require('body-parser');
+import express = require('express');
+import http = require('http');
+import path = require('path');
+import bodyParser = require('body-parser');
 
 exports.app = express();
 
