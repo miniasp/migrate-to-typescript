@@ -1,0 +1,22 @@
+{
+  "name": "angularjs-typescript",
+  "version": "0.1.0",
+  "homepage": "https://github.com/seanhess/angularjs-bootstrap",
+  "authors": [
+    "Sean Clark Hess <seanhess@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "todomvc-common": "~0.1.4",
+    "jquery": "~2.0.3",
+    "angular": "1.2.8",
+    "angular-route": "1.2.8"
+  }
+}

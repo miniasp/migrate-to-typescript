@@ -1,0 +1,22 @@
+{
+  "name": "migrate-to-typescript",
+  "version": "0.0.0",
+  "main": "server/server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miniasp/migrate-to-typescript"
+  },
+  "scripts": {
+      "start": "node server/server.js",
+      "install": "bower install"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "connect": "^3.4.1",
+    "express": "^4.13.4"
+  },
+  "devDependencies": {},
+  "bugs": {}
+}
