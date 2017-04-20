@@ -1,6 +1,7 @@
 {
   "name": "migrate-to-typescript",
   "globalDependencies": {
-    "angular": "github:DefinitelyTyped/DefinitelyTyped/angularjs/angular.d.ts#5256422ee72d2b1ab41bbb72eb47754e202b6bb8"
+    "angular": "github:DefinitelyTyped/DefinitelyTyped/angularjs/angular.d.ts#5256422ee72d2b1ab41bbb72eb47754e202b6bb8",
+    "jquery": "registry:dt/jquery#1.10.0+20170310222111"
   }
 }
