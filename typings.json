@@ -1,4 +1,6 @@
 {
   "name": "migrate-to-typescript",
-  "dependencies": {}
+  "globalDependencies": {
+    "angular": "github:DefinitelyTyped/DefinitelyTyped/angularjs/angular.d.ts#5256422ee72d2b1ab41bbb72eb47754e202b6bb8"
+  }
 }
